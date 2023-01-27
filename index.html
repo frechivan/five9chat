@@ -1,0 +1,67 @@
+<html>
+<head>
+    <script src="https://app.five9.com/consoles/SocialWidget/five9-social-widget.min.js"></script>
+    <style>
+        h1   {color: blue;}
+        p    {color: red;}
+        </style>
+</head>
+
+<body>
+    <h1>Friendster</h1> 
+    <link rel="stylesheet" href="styles.css">
+    <script>
+    var options = {
+        "rootUrl": "https://app.five9.com/consoles/",
+        "type": "chat",
+        "title": "",
+        "tenant": "Five9 TAM DEMO - Frechi Van Kahambing",
+        "profiles": "Chat Campaign",
+        "showProfiles": true,
+        "autostart": true,
+        "theme": "default-theme.css",
+        "surveyOptions": {
+            "showComment": true,
+            "requireComment": false
+        },
+        "fields": {
+            "name": {
+                "value": "",
+                "show": true,
+                "label": "Name"
+            },
+            "email": {
+                "value": "",
+                "show": true,
+                "label": "Email"
+            },
+            "Chat.siteFrom": {
+                "value": "www.friendster.com",
+                "show": false,
+                "label": "SiteName",
+                "required": false
+            },
+            "UserLocale": {
+                "value": "en",
+                "show": false
+            }
+        },
+        "playSoundOnMessage": true,
+        "allowCustomerToControlSoundPlay": false,
+        "showEmailButton": true,
+        "hideDuringAfterHours": false,
+        "useBusinessHours": false,
+        "showPrintButton": false,
+        "allowUsabilityMenu": false,
+        "enableCallback": false,
+        "callbackList": "",
+        "allowRequestLiveAgent": false
+    };
+    Five9SocialWidget.addWidget(options);
+    
+    </script>
+
+
+
+</body>
+</html>

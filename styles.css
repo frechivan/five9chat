@@ -720,3 +720,7 @@ div.typing {
   div.channel-video {
   background-image: url("../../images/channels/channel-video-hover-default.png");
 }
+
+#input-container::before {
+  content:'testing text';
+}

@@ -1,6 +1,6 @@
-.five9-chat-button {
+/*.five9-chat-button {
   font-size: 22px !important;
-  }
+  }*/
 
 /*.ui-content {
   background:#ff00bc3b!important;
@@ -8,5 +8,4 @@
 
 div#input-container::before {
   content:'testing text';
-  background: red;
 }

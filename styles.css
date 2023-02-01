@@ -722,5 +722,5 @@ div.typing {
 }
 
 #input-container::before {
-  content:'testing text';
+  content:'This is where your terms and conditions goes';
 }

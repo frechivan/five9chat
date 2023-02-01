@@ -6,6 +6,6 @@
   background:#ff00bc3b!important;
 }*/
 
-div#input-container::before {
+#input-container::before {
   content:'testing text';
 }

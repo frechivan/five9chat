@@ -2,11 +2,11 @@
   font-size: 22px !important;
   }
 
-.ui-content {
+/*.ui-content {
   background:#ff00bc3b!important;
-}
+}*/
 
-#input-container::before {
+div#input-container::before {
   content:'testing text';
   background: red;
 }

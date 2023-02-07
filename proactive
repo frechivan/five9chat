@@ -1,0 +1,55 @@
+<html>
+    <head>
+        This is my webpage
+        <link rel='stylesheet' href='https://app.five9.com/consoles/ProactiveChat/stylesheets/five9proactivechat.css'>
+    </head>
+
+    <body>
+        <script type='text/javascript' src='https://app.five9.com/consoles/ProactiveChat/javascripts/five9proactivechat.js'></script>
+        <script>
+        var options = {
+            "tenant": "Five9 TAM DEMO - Aileen Villar",
+            "title": "",
+            "showProfiles": true,
+            "restAPI": "https://app.five9.com",
+            "chatConsole": "https://app.five9.com/consoles/ChatConsole/index.html",
+            "notificationType": "modal",
+            "customChatFields": {
+                "name": {
+                    "value": "",
+                    "show": true,
+                    "label": "Name"
+                },
+                "email": {
+                    "value": "",
+                    "show": true,
+                    "label": "Email"
+                },
+                "UserLocale": {
+                    "value": "en",
+                    "show": false
+                }
+            },
+            "chatOptions": {
+                "allowRequestLiveAgent": false,
+                "showEmailButton": true,
+                "hideDuringAfterHours": false,
+                "useBusinessHours": false,
+                "enableCallback": false,
+                "callbackList": "",
+                "showPrintButton": false,
+                "playSoundOnMessage": true,
+                "allowCustomerToControlSoundPlay": false,
+                "allowUsabilityMenu": false
+            }
+        };
+        Five9ProactiveChat.init(options);
+        var parameters = {
+            "pageId": "Page-1",
+            "profiles": "Proactive Chat"
+        };
+        Five9ProactiveChat.startNewPage(parameters);
+        </script>
+                <p>This is the website body</p>
+    </body>
+</html>

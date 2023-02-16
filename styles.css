@@ -721,6 +721,6 @@ div.typing {
   background-image: url("../../images/channels/channel-video-hover-default.png");
 }
 
-#input-container::before {
+#input-container::after {
   content:'This is where your terms and conditions goes';
 }

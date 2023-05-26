@@ -725,6 +725,8 @@ div.typing {
   content:'This is where your terms and conditions goes';
 }
 
+#ui-content 
+#error-message 
 .chat-sad-image{
   background-image: url("https://www.clipartmax.com/png/middle/181-1811408_mr-bean-mr-bean-cartoon-png.png");
 }

@@ -721,10 +721,13 @@ div.typing {
   background-image: url("../../images/channels/channel-video-hover-default.png");
 }
 
-#input-container::after {
+/*Added line for terms and conditions during the chat start button trigger*/
+/*#input-container::after {
   content:'This is where your terms and conditions goes';
-}
+}*/
 
+
+/*Added line for changing the sad image on chat during error-message trigger*/
 .ui-content .chat-sad-image{
   background-image: url("https://www.clipartmax.com/png/middle/181-1811408_mr-bean-mr-bean-cartoon-png.png");
 }
